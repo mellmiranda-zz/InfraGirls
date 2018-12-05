@@ -1,0 +1,60 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title__main, .title__forms{
+    font-family: 'Pacifico', cursive;
+    color: #771394;
+}
+.title__forms{
+    text-align: center;
+    margin-top: 40px;
+}
+.nav-item:hover {
+    color: #A019C7;
+}
+.nav-item{
+    color: #3B3437;
+}
+
+.title{ 
+    font-family: 'Pacifico', cursive;
+    font-size: 120px;
+    color: #771394;
+    justify-content: flex-end;
+}
+
+.tela__inicial{
+    display: flex;
+    background-color: #FFA8F9;
+    margin-bottom: 15px;
+}
+
+.btn-teste {
+    color: #D4146B;
+    border-color: #D4146B;
+}
+.redes_sociais:hover{
+    transform: scale(1.3);
+}
+.container__redes_sociais{
+    justify-content: center;
+}
+
+
+.button__form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer{
+    background-color: #3A0947;
+    padding: 10px;
+    color: white;
+}
+
+.footer p{
+    margin-top: 10px;
+    text-align: center
+}
