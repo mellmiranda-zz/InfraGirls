@@ -43,7 +43,7 @@ body{
     border-color: #D4146B;
 }
 .redes_sociais:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 .container__redes_sociais{
     justify-content: center;
