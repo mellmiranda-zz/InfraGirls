@@ -26,7 +26,8 @@ body{
 
 .tela__inicial{
     display: flex;
-    background-color: #FFA8F9;
+    background-color: #ffa8f9;
+    background-image: linear-gradient(180deg, #ffa8f9 25%, #ffffff 100%);
     margin-bottom: 15px;
 }
 
