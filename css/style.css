@@ -10,6 +10,9 @@ body{
     text-align: center;
     margin-top: 40px;
 }
+.subtitle{
+    text-align: end;
+}
 
 .navbar{
     background-color: #ffa8f9;
@@ -49,7 +52,6 @@ body{
     justify-content: center;
 }
 
-
 .button__form{
     display: flex;
     justify-content: center;
@@ -57,7 +59,7 @@ body{
 }
 
 .imagem__perfil{
-    height: 300px;
+    height: 250px;
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
     margin: 0 auto;
     display: flex;
@@ -65,8 +67,9 @@ body{
 .idealiadora{
     background-color: #ffa8f9;
 }
-.idealiadora__sobre{
-    margin-top: 70px;
+
+.container__idealizadora{
+    align-items: center
 }
 
 .footer{
