@@ -2,6 +2,7 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+
 .title__main, .title__forms{
     font-family: 'Pacifico', cursive;
     color: #771394;
@@ -53,7 +54,9 @@ body{
     transform: scale(1.2);
 }
 .container__redes_sociais{
+    max-width: 55%;
     justify-content: center;
+
 }
 
 .button__form{
@@ -93,7 +96,12 @@ body{
         font-size: 75px;
     }
 
-    .redes_sociais{
+   /* .redes_sociais{
         width: 100px;
     }
  }
+
+ .container__redes_sociais{
+    justify-content: center;
+    max-width: 65%;
+}*/
