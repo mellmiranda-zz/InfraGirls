@@ -14,12 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Infra Girls - São Paulo</title>
-
 </head>
 
 <body>
-    <!--NAVBAR-->
-
+<!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -40,12 +38,14 @@
         </div>
     </nav>
 
-    <!--Principal-->
+<!--Principal-->
     <div class="tela__inicial">
         <div class="container container__telainicial">
             <img class="d-none d-sm-block" src="assets/mel-fundotransparente2.svg" alt="Responsive image">
             <div class="container">
-                <h1 class="title">InfraGirls</h1>
+                <h1 class="title" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2500">InfraGirls</h1>
                 <h2 class="subtitle">São Paulo</h2>
                 <div class="row container__redes_sociais">
                     <div class="col col-sm-4">
@@ -61,38 +61,31 @@
             </div>
         </div>
     </div>
+<div class="arrow__indication">
+    <a href="#quemsomos">
+        <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+    </a>
+</div>
 
-    <!--Quem somos-->
+<!--Quem somos-->
     <div class="container_main">
-        <div class="row">
+        <div class="row" data-aos="fade-down">
             <div class="container col-lg-7">
                     <section class="section__quemsomos">
                         <h2 class="title__main" id="quemsomos">Quem Somos</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos provident veritatis
-                            dolor harum quae unde? Aperiam voluptatibus beatae qui, totam nostrum amet obcaecati placeat
-                            corporis cumque, quaerat, omnis ratione.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti recusandae
-                            architecto magnam, necessitatibus cum voluptate. Obcaecati labore accusamus maiores libero,
-                            impedit nihil asperiores totam quas minima, autem tenetur minus?</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores fugiat cumque nam? Laborum
-                            alias eos nemo soluta laboriosam sapiente optio debitis placeat neque quibusdam tempora, modi
-                            aperiam totam minus reprehenderit?</p>
+                        <p>Afim de diminuir o GAP de mulheres em TI, principalmente na área de Infraestrutura e suporte, foi criado o InfraGirls para reunirmos em Meetups e Eventos para dividir os conhecimentos e celebrar as conquistas.</p>
+                        <p>Nosso objetivo é divulgar todas as vertentes de TI para as mulheres que desejam ingressar na área e também unir todas que já atuam para falar sobre carreira, dificuldades, cursos, beleza, assédio moral e sexual, discriminação racial e de gênero, moda e uma troca de experiências positivas e negativas.</p>
                     </section>
 <!--Eventos e Notícias-->
-                    <section class="section__eventos" >
+                    <section class="section__eventos">
                         <h2 class="title__main" id="eventos">Eventos e Notícias</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos provident veritatis
-                            dolor harum quae unde? Aperiam voluptatibus beatae qui, totam nostrum amet obcaecati placeat
-                            corporis cumque, quaerat, omnis ratione.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti recusandae
-                            architecto magnam, necessitatibus cum voluptate. Obcaecati labore accusamus maiores libero,
-                            impedit nihil asperiores totam quas minima, autem tenetur minus?</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores fugiat cumque nam? Laborum
-                            alias eos nemo soluta laboriosam sapiente optio debitis placeat neque quibusdam tempora, modi
-                        aperiam totam minus reprehenderit?</p>
+                        <p>Com reuniões mensais em formato de Meetups, nos juntamos para debater temas pertinentes na área e o que o mercado está pedindo, sempre focando também no networking e com isso trocar experiências e dores que a carreira de Infra e Suporte nos trás.</p>
                 </section>
-                <!--Carrossel com fotos de eventos-->
-
+<!--Carrossel com fotos de eventos-->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -124,11 +117,10 @@
                     </a>
                 </div>
 
-<!--Formulário pra contato-->
-                <h2 class="title__forms" id="contato">Entre em contato com a gente!</h2>
-                <h5>Tem algum dúvida? Precisa de alguma ajuda? Deixe um recado que o mais breve iremos entrar em
-                    contato com você ♥</h5>
-                <form class="formulario" netlify method="POST">
+<!--Formulário pra contato-->  
+            <h2 class="title__forms" id="contato">Entre em contato com a gente!</h2>
+            <h5>Tem algum dúvida? Precisa de alguma ajuda? Deixe um recado que o mais breve iremos entrar em contato com você ♥</h5>
+                <form class="formulario" data-aos="fade-down" netlify method="POST">
                     <div class="form-row">
                         <div class="form-group col-md-12">
                             <label for="inputEmail4">Nome</label>
@@ -150,10 +142,11 @@
                         <button class="btn btn-teste btn-outline-secondary">Enviar</button>
                     </div>
                 </form>
-            </div>
+            </div> 
         </div>
+  
 
-        <!--Idealizadora-->
+<!--Idealizadora-->
         <div class="idealiadora">
             <div class="container">
                 <div class="row container__idealizadora"">
@@ -171,15 +164,18 @@
         </div>
     </div>
     </div>
-    <!--Footer-->
+<!--Footer-->
     <footer class="footer">
         <p>Copyright © Melanie Miranda. Todos os direitos reservados.</p>
     </footer>
 </body>
-<script src="js/jquery.slim.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+    </script>
+    <script src="js/main.js"></script>
 </html>
