@@ -41,6 +41,10 @@ body{
     display: flex;
 }
 
+.section__eventos, .section__quemsomos, .idealiadora, footer{
+    margin-top: 50px;
+}
+
 .btn-teste {
     color: #D4146B;
     border-color: #D4146B;
