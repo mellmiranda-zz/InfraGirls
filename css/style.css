@@ -87,3 +87,13 @@ body{
     margin-top: 10px;
     text-align: center
 }
+
+@media (max-width: 420px) {
+    .title{ 
+        font-size: 75px;
+    }
+
+    .redes_sociais{
+        width: 100px;
+    }
+ }
