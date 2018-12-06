@@ -25,8 +25,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#eventos">Quem Somos</a>
-            <a class="nav-item nav-link" href="#trabalhos">Eventos e Notícias</a>
+            <a class="nav-item nav-link" href="#quemsomos">Quem Somos</a>
+            <a class="nav-item nav-link" href="#eventos">Eventos e Notícias</a>
             <a class="nav-item nav-link" href="#contato">Contato</a>
           </div>
         </div>
@@ -58,14 +58,14 @@
 <div class="container_main">
 <div class="row">
 <div class="container col-lg-7">
-    <h2 class="title__main">Quem Somos</h2>
+    <h2 class="title__main" id="quemsomos">Quem Somos</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos provident veritatis dolor harum quae unde? Aperiam voluptatibus beatae qui, totam nostrum amet obcaecati placeat corporis cumque, quaerat, omnis ratione.</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti recusandae architecto magnam, necessitatibus cum voluptate. Obcaecati labore accusamus maiores libero, impedit nihil asperiores totam quas minima, autem tenetur minus?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores fugiat cumque nam? Laborum alias eos nemo soluta laboriosam sapiente optio debitis placeat neque quibusdam tempora, modi aperiam totam minus reprehenderit?</p>
 
 
 <!--Eventos e Notícias-->
-    <h2 class="title__main">Eventos e Notícias</h2>
+    <h2 class="title__main" id="eventos">Eventos e Notícias</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos provident veritatis dolor harum quae unde? Aperiam voluptatibus beatae qui, totam nostrum amet obcaecati placeat corporis cumque, quaerat, omnis ratione.</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti recusandae architecto magnam, necessitatibus cum voluptate. Obcaecati labore accusamus maiores libero, impedit nihil asperiores totam quas minima, autem tenetur minus?</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores fugiat cumque nam? Laborum alias eos nemo soluta laboriosam sapiente optio debitis placeat neque quibusdam tempora, modi aperiam totam minus reprehenderit?</p>
@@ -104,33 +104,49 @@
       </div>
 
 <!--Formulário pra contato-->
-<h2 class="title__forms">Entre em contato com a gente!</h2>
+<h2 class="title__forms" id="contato">Entre em contato com a gente!</h2>
 <h5>Tem algum dúvida? Precisa de alguma ajuda? Deixe um recado que o mais breve iremos entrar em contato com você ♥</h5>
-<form netlify method="POST">
-        <div class="form-row">
-          <div class="form-group col-md-12">
-            <label for="inputEmail4">Nome</label>
-            <input type="text" class="form-control" name="nome" id="inputEmail4" placeholder="Digite seu nome">
+        <form netlify method="POST">
+            <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="inputEmail4">Nome</label>
+                <input type="text" class="form-control" name="nome" id="inputEmail4" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-12">
+                <label for="exampleFormControlInput1">Celular</label>
+                <input type="number" class="form-control" name="celular" id="exampleFormControlInput1" placeholder="celular">
+            </div>
+            <div class="form-group col-md-12"></div>
+                <label for="exampleFormControlTextarea1">Digite sua mensagem</label>
+                <textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1" rows="7"></textarea>
+            </div>
+            <div class="button__form">
+                <button class="btn btn-teste btn-outline-secondary">Enviar</button>
+            </div>
+        </form>
         </div>
-        <div class="form-group col-md-12">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="form-group col-md-12">
-            <label for="exampleFormControlInput1">Celular</label>
-            <input type="number" class="form-control" name="celular" id="exampleFormControlInput1" placeholder="celular">
-        </div>
-        <div class="form-group col-md-12"></div>
-            <label for="exampleFormControlTextarea1">Digite sua mensagem</label>
-            <textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1" rows="7"></textarea>
-        </div>
-        <div class="button__form">
-            <button class="btn btn-teste btn-outline-secondary">Enviar</button>
-        </div>
-    </form>
+    </div>
 </div>
+<!--Idealizadora-->
+<div class="idealiadora">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="assets/foto-melanie.png" alt="..." class="imagem__perfil">
+        </div>
+        <div class="col-lg-6 idealiadora__sobre">
+            <h2 class="title__main" id="eventos">Melanie Miranda</h2>
+            <p>Sou formada em Análise e desenvolvimento de sistemas, trabalhei por 5 anos na área de suporte e infraestrutura e sentia falta de uma comunidade na área, além de ser voltada para mulheres. Com isso resolvi criar o InfraGirls com objetivo de ajudar mais mulheres entrar na Infraestrutura, se especializar e se unir para diminuir o GAP na área. </p>
+        </div>
+    </div>
+    </div>
 </div>
-</div>
+
+<!--Footer-->
 <footer class="footer">
     <p>Copyright © Melanie Miranda. Todos os direitos reservados.</p>   
 </footer>

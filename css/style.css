@@ -56,10 +56,24 @@ body{
     margin: 20px;
 }
 
+.imagem__perfil{
+    height: 300px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    margin: 0 auto;
+    display: flex;
+}
+.idealiadora{
+    background-color: #ffa8f9;
+}
+.idealiadora__sobre{
+    margin-top: 70px;
+}
+
 .footer{
     background-color: #3A0947;
     padding: 10px;
     color: white;
+    margin-top: 30px;
 }
 
 .footer p{
